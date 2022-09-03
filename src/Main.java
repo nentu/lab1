@@ -1,5 +1,3 @@
-import java.util.Arrays;
-import java.util.Random;
 public class Main{
     public static void main(String[] args){
         var c = new long[15-7+1];
@@ -7,13 +5,11 @@ public class Main{
             c[i-7] = i;
         }
         //System.out.println(Arrays.toString(c));
-
         var x = new float[13];
         for (int i = 0; i<x.length; i++){
             x[i] = (float) Math.random()*23 - (float) 13.0;
         }
         //System.out.println(Arrays.toString(x));
-
         var l = new double[5][13];
         for (int i=0;i < l.length;i++){
             for (int j=0;j < l[0].length; j++){
