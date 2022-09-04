@@ -18,13 +18,18 @@ public class Main{
 		for(int i=0;i<c.length;i++){
 			c[i] = 7 + i*2;
 		}
-		//System.out.println(Arrays.toString(c));
+		System.out.println("c:");
+		for (long i:c) System.out.print(i+" ");
+		System.out.println("\n");
 		
 		var x = new float[13];
 		for (int i=0;i<x.length;i++){
 			x[i] = getRandom();
 		}
-		//System.out.println(Arrays.toString(x));
+
+		System.out.println("x:");
+		for (float i:x) System.out.print(i+" ");
+		System.out.println("\n");
 
 		var k = new double[5][13];
 		for (int i=0;i<k.length;i++){
@@ -41,6 +46,7 @@ public class Main{
 				}
 			}
 		}
+		System.out.println("k:");
 		write(k);
 	}
 }
