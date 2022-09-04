@@ -1,19 +1,22 @@
+import java.util.Arrays;
+
 public class Main{
     public static void main(String[] args){
-        var c = new long[15-7+1];
-        for(int i = 7; i<=15;i++){
-            c[i-7] = i;
+        var c = new long[5];
+        for(int i = 0; i<5;i++){
+            c[i] = 7+i*2;
         }
-        //System.out.println(Arrays.toString(c));
+        System.out.println(Arrays.toString(c));
         var x = new float[13];
         for (int i = 0; i<x.length; i++){
             x[i] = (float) Math.random()*23 - (float) 13.0;
         }
-        //System.out.println(Arrays.toString(x));
+        System.out.println(Arrays.toString(x));
         var l = new double[5][13];
         for (int i=0;i < l.length;i++){
             for (int j=0;j < l[0].length; j++){
                 var X = x[j];
+                //switch не работает с long
                 if (c[i] == 9){
                     l[i][j] = Math.tan(Math.pow(( ( ( Math.pow(X, X*(X-1)) + 0.5 ) / 1) / 3 ), Math.log(Math.abs(X))));
                 } else if (c[i] == 7 & c[i] == 15) {
