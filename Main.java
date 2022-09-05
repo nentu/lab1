@@ -1,4 +1,3 @@
-import java.util.Arrays;
 public class Main{
 	private static float getRandom(){
 		return (float) (Math.random()*23-10.0);
@@ -15,11 +14,13 @@ public class Main{
 
 	public static void main(String[] args){
 		var c = new long[5];
-		for(int i=0;i<c.length;i++){
+		for(int i=0; i< c.length; i++){
 			c[i] = 7 + i*2;
 		}
 		System.out.println("c:");
-		for (long i:c) System.out.print(i+" ");
+		for(int i=0; i< c.length; i++){
+			System.out.print(c[i]+" ");
+		}
 		System.out.println("\n");
 		
 		var x = new float[13];
@@ -28,7 +29,9 @@ public class Main{
 		}
 
 		System.out.println("x:");
-		for (float i:x) System.out.print(i+" ");
+		for (int i=0;i<x.length;i++){
+			System.out.print(x[i]+" ");
+		}
 		System.out.println("\n");
 
 		var k = new double[5][13];
