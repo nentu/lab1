@@ -60,5 +60,6 @@ public class Main{
 		
 		System.out.println("k:");
 		write(k);
+
 	}
 }
