@@ -1,3 +1,5 @@
+package ru.ifmo.se;
+
 public class Main{
 	private static float getRandom(){
 		var t = (float) (Math.random()*24-13.0);
