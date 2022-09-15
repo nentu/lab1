@@ -1,4 +1,4 @@
-//package ru.ifmo.se;
+package ru.ifmo.se;
 /**
 Лабораторная работа №1 
 Вариант 311966
@@ -22,7 +22,7 @@ public class Main{
 	}
 	/**
 	Вторая собственная функция, которая на вход получает матрицу и выводит её ввиде таблицы
-	@param a - двумерный массив типа float который требуется вывести
+	@param a двумерный массив типа float который требуется вывести
 	*/
 	public static void printMatrix(double[][] a){
 		for (int i=0; i<a.length; i++){
