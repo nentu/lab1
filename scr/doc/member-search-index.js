@@ -1,1 +1,0 @@
-memberSearchIndex = [{"p":"ru.ifmo.se","c":"Main","l":"getRandom()"},{"p":"ru.ifmo.se","c":"Main","l":"Main()","u":"%3Cinit%3E()"},{"p":"ru.ifmo.se","c":"Main","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"ru.ifmo.se","c":"Main","l":"printMatrix(double[][])"}];updateSearchResults();
