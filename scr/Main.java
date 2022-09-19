@@ -58,7 +58,7 @@ public class Main{
 		//Вывод x
 		System.out.println("x:");
 		for (int i=0;i<x.length;i++){
-			System.out.print(x[i]+" ");
+			System.out.printf("%.5f ", x[i]);
 		}
 		System.out.println("\n");
 
