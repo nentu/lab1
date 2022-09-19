@@ -28,6 +28,7 @@ public class Main{
 		for (int i=0; i<a.length; i++){
 			for (int j=0; j<a[0].length;j++){
 				System.out.printf("%.2f ", a[i][j]);
+        System.out.print("\t");
 			}
 			System.out.println("");
 		}
