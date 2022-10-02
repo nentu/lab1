@@ -16,7 +16,7 @@ public class Main{
 	*/
 	public static float getRandom(){
 		var t = (float) (Math.random()*24-13.0);
-		if (t>10) return (float) 10;
+		if (t>10) return 10.0f;
 		else return t;
 	}
 	/*
